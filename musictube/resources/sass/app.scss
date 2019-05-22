@@ -1,0 +1,99 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~dropzone/dist/min/dropzone.min.css';
+
+@import "~font-awesome/scss/font-awesome.scss";
+
+.dropzone {
+  margin-bottom: 20px;
+  min-height: auto;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+#accountAvatar
+{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.single-about-content{
+  text-align: center;
+  margin-top: 55px;
+}
+
+.single-about-content a {
+  width: 130px;
+  line-height: 45px;
+  color:#292929;
+  border-width: 1px;
+  margin-top:22px;
+}
+
+
+.single-about-content a:hover,
+.single-about-content:hover .icon {
+  color:#fff;
+}
+
+.single-about-content:hover h5 a{
+  color:#d73e4d;
+}
+
+
+.single-about-content:hover .icon{
+  background: #d73e4d;
+}
+
+
+
+.activeFontIcon{
+  color:#fff;
+}
+
+.activeIcon{
+  background: #d73e4d;
+}
+
+.single-about-content a{
+  text-decoration: none;
+}
+
+.icon {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  line-height: 130px;
+  font-size: 36px;
+  color:#292929;
+  border:2px solid #d73e4d;
+}
+
+.tran3s{
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.round-border {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+}
